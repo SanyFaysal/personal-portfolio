@@ -8,6 +8,8 @@ const Header = () => {
         <li><Link to='#projects'>Projects</Link></li>
         <li><Link to='#contact'>Contact</Link></li>
     </>
+
+
     return (
         <div>
             <div class="navbar lg:w-[90%] xl:w-[90%] mx-auto ">
