@@ -1,6 +1,5 @@
 import { IconButton } from '@mui/material';
 import React from 'react';
-import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import StorageIcon from '@mui/icons-material/Storage';
 import CodeIcon from '@mui/icons-material/Code';

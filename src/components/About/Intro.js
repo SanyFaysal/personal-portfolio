@@ -1,7 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import DownloadIcon from '@mui/icons-material/Download';
-import resume from '../../assets/Abu Sani Faysal-frontend-developer-resume.pdf';
+
 const Intro = () => {
   return (
     <div className="h-full lg:flex justify-between items-center ">
