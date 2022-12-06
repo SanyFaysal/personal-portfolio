@@ -31,7 +31,7 @@ function App() {
         <div className="flex justify-center items-center pt-1">
           <EmergencyContact />
           <div
-            className={`w-[96%] monitor my-auto  mx-2 border border-[0.1px] border-[#27344d] h-[85vh]   flex   items-center justify-center rounded-lg shadow-lg ${
+            className={`w-[96%] monitor my-auto  mx-2 border border-[0.1px] border-[#27344d] lg:h-[85vh] md:h-[85vh] h-[80vh]   flex   items-center justify-center rounded-lg shadow-lg ${
               !light ? 'shadow-violate-100' : 'shadow-[#293958] '
             }`}
           >
