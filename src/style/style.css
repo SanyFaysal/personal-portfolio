@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:200'); */
+
+.designation{
+   transition: 0.5s;
+}
+.about_page{
+   scroll-behavior: smooth !important;
+  
+}
+.body{
+   background: content-box radial-gradient(#24365a, #171717);
+   /* position: relative */
+}
+.light{
+   /* background: content-box radial-gradient(#7135d3, #6512eb); */
+   background: content-box radial-gradient(#830ac0, #7206a8);
+   /* position: relative */
+}
+.monitor{
+   position: relative;
+}
+.monitor::after{
+   background-image: url("../assets/final.png");
+   content: ' ';
+   display: block;
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 15%;
+   height: 100%;
+   opacity: 0.2;
+
+   background-repeat: no-repeat;
+   background-position:50% 50% ;
+   background-size: cover; 
+}
+.monitor::before{
+   background-image: url("../assets/final.png");;
+   transform: rotate(180deg);
+   content: ' ';
+   display: block;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 13%;
+   height: 100%;
+   opacity: 0.2;
+
+   background-repeat: no-repeat;
+   background-position:50% 50% ;
+   background-size: cover;
+}
+
+
+.skill_title{
+   display: inline-block !important;
+   background-color: #172031;
+   
+}
+
+.about_nav_bg{
+   background-image: none !important;
+
+}
+
+.modal_width{
+   width: 800px !important;
+}
+::-webkit-scrollbar{
+   width: 6px;;
+}
+::-webkit-scrollbar-track{
+   /* background-color: rgb(121, 121, 121); */
+   border-radius:0 10px 10px 0;
+}
+::-webkit-scrollbar-thumb{
+   background-color: #1e3258;
+   border-radius:10px 10px 10px 10px;
+ 
+}
+
+::-webkit-scrollbar-thumb:hover{
+   background-color: #1d4cac;
+  
+}
+
+
+.input_bg{
+   background:linear-gradient(to left, #000000a4, #1a2842af);
+}
