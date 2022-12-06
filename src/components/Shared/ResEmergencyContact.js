@@ -24,7 +24,7 @@ const ResEmergencyContact = ({ light, setLight }) => {
           <div className="flex justify-center lg:hidden md:hidden">
             <div className="mr-2">
               <a
-                href="http://wa.me/01634319696"
+                href="http://wa.me/+8801634319696"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -34,7 +34,7 @@ const ResEmergencyContact = ({ light, setLight }) => {
               </a>
             </div>
             <div className="mr-2">
-              <a href="tel://+88016334319696">
+              <a href="tel://+8801634319696">
                 <IconButton aria-label="delete" size="large">
                   <PhoneIcon fontSize="inherit" className="text-white" />
                 </IconButton>
