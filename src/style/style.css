@@ -15,7 +15,7 @@
 }
 .light{
    /* background: content-box radial-gradient(#7135d3, #6512eb); */
-   background: content-box radial-gradient(#830ac0, #7206a8);
+   background:content-box linear-gradient(to top, rgb(75, 60, 173)	, rgb(62, 50, 143));
    /* position: relative */
 }
 .monitor{
