@@ -41,7 +41,7 @@ const EmergencyContact = () => {
         </a>
       </div>
       <div className="my-2">
-        <a href="mailto:abu.faysal002@gamil.com">
+        <a href="mailto:abu.faysal002@gmail.com">
           <IconButton aria-label="delete" size="large">
             <MailIcon fontSize="inherit" className="text-white" />
           </IconButton>
