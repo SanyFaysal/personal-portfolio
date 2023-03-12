@@ -1,29 +1,31 @@
-import React, { useEffect, useState } from 'react';
-import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
+import React, { useEffect, useState } from "react";
+import MenuTwoToneIcon from "@mui/icons-material/MenuTwoTone";
 const AboutNav = ({ scrolled, setScrolled }) => {
-  const [active, setActive] = useState('introduction');
+  const [active, setActive] = useState("introduction");
 
-  const scroller = document?.getElementById('about_page');
+  const scroller = document?.getElementById("about_page");
   useEffect(() => {
-    scroller?.addEventListener('scroll', (event) => {
+    scroller?.addEventListener("scroll", (event) => {
       const offset = scroller.scrollTop;
       if (offset > 150) {
         setScrolled(true);
-        console.log('scroller');
+        console.log("scroller");
       } else {
         setScrolled(false);
-        console.log('no scrolled');
+        console.log("no scrolled");
       }
     });
   });
   const items = (
     <>
-      {' '}
+      {" "}
       <li className="">
         <a
           href="#introduction"
-          className={`${active === 'introduction' && 'text-green-500'} mx-4`}
-          onClick={() => setActive('introduction')}
+          className={`${
+            active === "introduction" && "text-green-500"
+          } mx-4 text-white`}
+          onClick={() => setActive("introduction")}
         >
           Introduction
         </a>
@@ -31,8 +33,10 @@ const AboutNav = ({ scrolled, setScrolled }) => {
       <li>
         <a
           href="#skill"
-          className={`${active === 'skill' && 'text-green-500'} mx-4`}
-          onClick={() => setActive('skill')}
+          className={`${
+            active === "skill" && "text-green-500"
+          } mx-4 text-white`}
+          onClick={() => setActive("skill")}
         >
           My Skill
         </a>
@@ -41,9 +45,9 @@ const AboutNav = ({ scrolled, setScrolled }) => {
         <a
           href="#experience_achievement"
           className={`${
-            active === 'experience_achievement' && 'text-green-500'
-          } mx-4`}
-          onClick={() => setActive('experience_achievement')}
+            active === "experience_achievement" && "text-green-500"
+          } mx-4 text-white`}
+          onClick={() => setActive("experience_achievement")}
         >
           Experience and Achievement
         </a>
@@ -51,8 +55,10 @@ const AboutNav = ({ scrolled, setScrolled }) => {
       <li>
         <a
           href="#education"
-          className={`${active === 'education' && 'text-green-500'} mx-4`}
-          onClick={() => setActive('education')}
+          className={`${
+            active === "education" && "text-green-500"
+          } mx-4 text-white`}
+          onClick={() => setActive("education")}
         >
           Education
         </a>
@@ -72,7 +78,7 @@ const AboutNav = ({ scrolled, setScrolled }) => {
   return (
     <div
       className={`${
-        scrolled ? 'bg-slate-800 ' : 'bg-slate-900'
+        scrolled ? "bg-slate-800 " : "bg-slate-900"
       } navbar my-[-10px]  sticky top-0 lg:pr-48 md:pr-48 pr-5 duration-400 rounded absolute`}
     >
       <div className="navbar flex justify-end">

@@ -1,20 +1,20 @@
-import { Route, Routes, useLocation } from 'react-router-dom';
-import './App.css';
+import { Route, Routes, useLocation } from "react-router-dom";
+import "./App.css";
 // import Footer from './components/Footer';
 
-import Home from './components/Home/Home';
-import 'react-toastify/dist/ReactToastify.css';
-import About from './components/About/About';
-import Projects from './components/Projects/Projects';
-import Contact from './components/Contact';
-import './style/style.css';
-import { AnimatePresence } from 'framer-motion';
+import Home from "./components/Home/Home";
+import "react-toastify/dist/ReactToastify.css";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact";
+import "./style/style.css";
+import { AnimatePresence } from "framer-motion";
 
-import Blog from './components/Blog/Blog';
-import EmergencyContact from './components/Shared/EmergencyContact';
-import Navbar from './components/Shared/Navbar';
-import ResEmergencyContact from './components/Shared/ResEmergencyContact';
-import { useState } from 'react';
+import Blog from "./components/Blog/Blog";
+import EmergencyContact from "./components/Shared/EmergencyContact";
+import Navbar from "./components/Shared/Navbar";
+import ResEmergencyContact from "./components/Shared/ResEmergencyContact";
+import { useState } from "react";
 
 function App() {
   const location = useLocation();
@@ -23,7 +23,7 @@ function App() {
   return (
     <div
       className={`${
-        light ? 'body' : 'light'
+        light ? "body" : "light"
       } w-[100%] h-[100vh] overflow-hidden`}
     >
       <div className="lg:pt-4 md:pt-4 pt-1">
@@ -32,7 +32,7 @@ function App() {
           <EmergencyContact />
           <div
             className={`w-[96%] monitor my-auto  mx-2 border border-[0.1px] border-[#27344d] h-[85vh]    flex   items-center justify-center rounded-lg shadow-lg ${
-              !light ? 'shadow-violate-100' : 'shadow-[#293958] '
+              !light ? "shadow-violate-100" : "shadow-[#293958] "
             }`}
           >
             <AnimatePresence exitBeforeEnter>
@@ -50,7 +50,7 @@ function App() {
               <MailIcon fontSize="inherit" className="text-white" />
             </IconButton> */}
           <div className="lg:inline-block md:inline-block hidden">
-            <label className="swap swap-rotate mx-auto">
+            <label className="swap swap-rotate mx-auto text-white">
               {/* <!-- this hidden checkbox controls the state --> */}
               <input type="checkbox" onClick={() => setLight(!light)} />
 
