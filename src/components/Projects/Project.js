@@ -18,25 +18,25 @@ const Project = ({ project, setSelectedProject }) => {
             </span>
           </h1>
           <div className="flex ">
-            <button className="mr-3">
+            <a href={project?.liveSite} className="mr-3">
               Live site
               <IconButton aria-label="delete" size="medium">
                 <OpenInNewIcon fontSize="small" className="text-white" />
               </IconButton>
-            </button>
-            <button className="mr-3">
+            </a>
+            <a href={project?.clientSiteCode} className="mr-3">
               Client Site Code
               <IconButton aria-label="delete" size="medium">
                 <CodeIcon fontSize="medium" className="text-white" />
               </IconButton>
-            </button>
+            </a>
 
-            <button className="">
+            <a href={project?.serverSiteCode} className="">
               Server Site Code
               <IconButton aria-label="delete" size="medium">
                 <StorageIcon fontSize="medium" className="text-white" />
               </IconButton>
-            </button>
+            </a>
           </div>
           <div className="mt-3">
             <h2 className="text-white block text-xl mb-2">Technologies </h2>
@@ -70,12 +70,15 @@ const Project = ({ project, setSelectedProject }) => {
             className="text-magenta-400 font-semibold inline-block  text-white rounded  my-5 hover:translate-x-1 hover:border-green-500 hover:text-green-500 motion-reduce:transition-none motion-reduce:hover:transform-none  duration-500"
             onClick={() => setSelectedProject(project)}
           >
-            <span className="mr"> Read More</span>
+            <span className="mr"> Read Details</span>
             <KeyboardDoubleArrowRightIcon size="large" />
           </label>
         </div>
 
-        <a href="#" className="h-[35vh] lg:order-2 order-1 w-[65vh]  m-auto ">
+        <a
+          href={project?.liveSite}
+          className="h-[35vh] lg:order-2 order-1 w-[65vh]  m-auto "
+        >
           <img
             src={project?.img}
             alt=""

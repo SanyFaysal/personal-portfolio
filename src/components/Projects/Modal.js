@@ -1,11 +1,14 @@
-import React from 'react';
-import '../../style/style.css';
+import React from "react";
+import "../../style/style.css";
 const Modal = ({ selectedProject }) => {
   return (
     <>
       <input type="checkbox" id="my-modal-6" className="modal-toggle" />
-      <div className="modal modal-xl  modal-bottom bg-[#182238c4] opacity-0 sm:modal-middle">
-        <div layout className="modal-box w-[100%] relative  bg-slate-800  ">
+      <div className="modal = modal-bottom bg-[#182238c4] opacity-0 sm:modal-middle">
+        <div
+          layout
+          className="modal-box w-11/12 max-w-5xl relative  bg-slate-800  "
+        >
           <div className="">
             <label
               htmlFor="my-modal-6"
@@ -16,12 +19,11 @@ const Modal = ({ selectedProject }) => {
             <h3 className="font-bold mb-3 text-3xl text-green-500 text-center">
               {selectedProject?.title}
             </h3>
-            <div className="  ">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                consequuntur quod sint ea enim maiores reprehenderit esse
-                corporis atque temporibus!
-              </p>
+            <div className=" text-white ">
+              <h1 className="text-blue-500 font-bold mb-1 text-xl">
+                Project Details
+              </h1>
+              <p className="text-justify">{selectedProject?.projectDetails}</p>
             </div>
           </div>
           <div className="modal-action">

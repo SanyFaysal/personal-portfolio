@@ -59,7 +59,7 @@ const Intro = () => {
 
           <h3 className="text-xl  text-white  border-b border-gray-700 mt-2 pb-2 my-1">
             <span className="font-semibold"> Age </span> :{' '}
-            <span className="font-semibold">21</span>
+            <span className="font-semibold">22</span>
           </h3>
 
           <h3 className="text-xl  text-white  pb-2">

@@ -23,7 +23,7 @@ function App() {
   return (
     <div
       className={`${
-        light ? "body" : "light"
+        light ? "/* body */" : "light"
       } w-[100%] h-[100vh] overflow-hidden`}
     >
       <div className="lg:pt-4 md:pt-4 pt-1">
