@@ -1,8 +1,7 @@
 import React from "react";
-import experience from "../../assets/experience.png";
-import certificate from "../../assets/certificate.png";
-import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+
+import { experienceData } from "../../data/experienceData";
+import ExperienceCard from "../Shared/ExperienceCard";
 const Experience = () => {
   return (
     <div className="lg:mt-14 md:mt-14 mx-auto">
@@ -11,7 +10,11 @@ const Experience = () => {
         <span className="block mx-2">&</span>
         <span>Achievements</span>
       </h1>
-      <div className="flex justify-center items-center">
+      {experienceData?.map((experience, i) => (
+        <ExperienceCard key={i} experience={experience} />
+      ))}
+
+      {/* <div className="flex justify-center items-center">
         <div className=" border-2 border-sky-500  rounded-xl w-20   inline-block"></div>
       </div>
       <div className="lg:flex md:flex justify-between items-center mt-5">
@@ -137,7 +140,7 @@ const Experience = () => {
             <KeyboardDoubleArrowRightIcon size="large" />
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -23,14 +23,15 @@ export const experienceData = [
   },
   {
     title: "Successfully Completed Internship ",
-    designation: "Frontend Web Development",
+    designation: "Full Stack Web Development",
     company: "Brain Quest Consultancy and Training - UAE",
     duration: "11 August, 2022 - 16 November, 2022",
     points: [
       "Worked with a team to implement the Frontend functions and pixel perfect UI from figma design",
       "Worked with another team of MERN to implement the Frontend functions and API integrations in ExpressJs, Authentication, Authorizations, MongoDB Database with Mongoose",
     ],
-    technologies: "Vue Js, Vuex, Vuexy Component, Bootstrap",
+
+    technologies: ["Vue Js", "Vuex", "Vuexy Component", "Bootstrap"],
     imageSrc: "", // Assuming 'experience' is the variable holding the image source
     experienceLetterLink:
       "https://drive.google.com/file/d/1VWqoDEfelkAaFyydWKQ2NUjtSW5Syteh/view?usp=sharing",
@@ -53,6 +54,7 @@ export const experienceData = [
       "Tailwind CSS",
       "Bootstrap",
     ],
+
     imageSrc: "", // Assuming 'experience' is the variable holding the image source
     experienceLetterLink:
       "https://drive.google.com/file/d/1VWqoDEfelkAaFyydWKQ2NUjtSW5Syteh/view?usp=sharing",

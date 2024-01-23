@@ -44,7 +44,9 @@ const Project = ({ project, setSelectedProject }) => {
               <h2 className="mr-2 font-semibold text-sky-500">Frontend </h2>
               <div className="">
                 {project?.frontendTechnology?.map((tech) => (
-                  <button className="badge badge-sm  m-1 ">{tech}</button>
+                  <button className="badge badge-sm bg-sky-600  m-1 ">
+                    {tech}
+                  </button>
                 ))}
               </div>
             </div>

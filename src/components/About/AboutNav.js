@@ -51,9 +51,9 @@ const AboutNav = ({}) => {
   );
   return (
     <div
-      className={`navbar my-[-10px] h-2 sticky top-0 backdrop-blur-md 	  duration-400 rounded `}
+      className={`navbar my-[-10px] h-2 sticky top-0 backdrop-blur-md 	 duration-400 rounded `}
     >
-      <div className="navbar mx-12">
+      <div className="navbar ml-12 mr-16">
         <div className="dropdown  dropdown-end text-white">
           <label tabIndex={0} className="btn btn-ghost text-white  lg:hidden">
             <MenuTwoToneIcon />
@@ -70,7 +70,7 @@ const AboutNav = ({}) => {
           <p className="text-white ml-3">Who am I ..?</p>
         </div>
       </div>
-      <div className="navbar-end hidden  lg:flex pr-10 ">
+      <div className="navbar-end hidden  lg:flex mr-28 ">
         <ul className="menu menu-horizontal text-white ">{items}</ul>
       </div>
     </div>

@@ -25,43 +25,33 @@ const Skill = () => {
           </div>
           <div className="w-full  grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-10 px-4  border-[1px] rounded-lg  border-sky-900 border-dotted">
             <div className="shadow-md rounded-lg  shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-[lightcoral]">HTML</p>
+              <p className="my-4 font-bold  text-[white]">NextJs</p>
             </div>
             <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-success">CSS</p>
+              <p className="my-4 font-bold  text-success">React Js</p>
             </div>
             <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-secondary">Bootstrap</p>
+              <p className="my-4 font-bold  text-secondary">Redux Toolkit</p>
             </div>
-            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-[rosybrown]">Tailwind</p>
-            </div>
+
             <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
               <p className="my-4 font-bold  text-[mediumslateblue]">
-                Material UI
+                UI Libraries
               </p>
             </div>
+
             <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-[darkturquoise]">Daisy UI</p>
+              <p className="my-4 font-bold  text-[yellow]">Javascript</p>
             </div>
-            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-[yellowsky]">Javascript</p>
-            </div>
-            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-blue-500">React Js</p>
-            </div>
+
             <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
               <p className="my-4 font-bold  text-purple-500">Typescript</p>
             </div>
             <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-slate-300">Next Js</p>
-            </div>
-
-            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-[khaki]">Vue Js</p>
+              <p className="my-4 font-bold  text-sky-500">Tailwind</p>
             </div>
             <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-[hotpink]">Vuex</p>
+              <p className="my-4 font-bold  text-orange-500">Bootstrap</p>
             </div>
           </div>
           <div className=" lg:mt-10 md:mt-10 mt-7 mb-[-1px]">
@@ -71,16 +61,28 @@ const Skill = () => {
           </div>
           <div className="w-full  grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-10 px-4  border-[1px] rounded-lg  border-sky-900 border-dotted">
             <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold text-sky-500 ">Node Js</p>
+              <p className="my-4 font-bold text-green-400 ">Node Js</p>
             </div>
             <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
               <p className="my-4 font-bold text-secondary">Express Js</p>
             </div>
             <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-blue-300">MongoDB</p>
+              <p className="my-4 font-bold  text-green-600">MongoDB</p>
             </div>
             <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
-              <p className="my-4 font-bold  text-orange-300">Mongoose</p>
+              <p className="my-4 font-bold  text-orange-500">Mongoose</p>
+            </div>
+            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
+              <p className="my-4 font-bold text-white ">Prisma</p>
+            </div>
+            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
+              <p className="my-4 font-bold text-sky-500">TypeScript</p>
+            </div>
+            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
+              <p className="my-4 font-bold  text-red-400">SQL</p>
+            </div>
+            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
+              <p className="my-4 font-bold  text-purple-500">PostgreSQL</p>
             </div>
           </div>
         </div>

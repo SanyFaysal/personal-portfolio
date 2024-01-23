@@ -1,57 +1,51 @@
-import React from "react";
-
-export default function ExperienceCard() {
+import experience from "../../assets/experience.png";
+import certificate from "../../assets/certificate.png";
+import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+export default function ExperienceCard({ experience }) {
   return (
     <div className="lg:flex md:flex justify-between items-center mt-5">
-      <div className=" lg:w-[55%] md:w-[55%] text-start my-8 text-justify ">
-        <h1 className="text-2xl font-bold text-white">
-          <span className="text-sky-500 block">
-            Successfully Completed Internship{" "}
+      <div className=" lg:w-[55%] md:w-[55%]  my-8 text-justify ">
+        <h1 className="text-2xl  text-white ">
+          <span className="text-sky-500 block font-bold ">
+            {experience?.title}
           </span>
-          Full stack Web Development
+
+          <span className="text-bold"> {experience?.designation}</span>
         </h1>
         <p className="text-thin text-italic  text-white">
-          Brain Quest Consultancy and Training - UAE
+          {experience?.company}
         </p>
-        <p className=" text-sm  italic text-white">
-          11 August, 2022 - 16 November, 2022{" "}
-        </p>
+        <p className=" text-sm  italic text-white">{experience?.duration}</p>
         <div className="mt-4 text-white">
-          <p>
-            <span className="text-blue-500">
-              {" "}
-              <CheckCircleIcon />
-            </span>{" "}
-            Worked with a team to implement the Frontend functions and pixel
-            perfect UI from figma design
-          </p>{" "}
-          <br />
-          <p className="">
-            <span className="text-blue-500">
-              <CheckCircleIcon />
-            </span>{" "}
-            Worked with another team of MERN to implement the Frontend functions
-            and API integrations in ExpressJs, Authentication, Authorizations ,
-            MongoDB Database with Mongoose .
-          </p>{" "}
-          <br />{" "}
-          <p className=" ">
-            <span className="font-bold text-blue-500 mr-1">
+          {experience?.points?.map((point) => (
+            <p>
+              <span className="text-sky-500">
+                {" "}
+                <CheckCircleIcon />
+              </span>{" "}
+              {point}
+            </p>
+          ))}
+
+          <div className=" ">
+            <span className="font-bold text-sky-500 mr-1">
               {" "}
               <CheckCircleIcon />
             </span>
             <span className="font-bold text-lg mr-1">Used Technologies :</span>
-            <span>
-              Vue Js, Vuex, Vuexy Component , React Js, Node Js, Express JS,
-              MongoDB, Mongoose
-            </span>
-          </p>
+            {experience?.technologies?.map((tech) => (
+              <button className="badge badge-sm bg-sky-600  m-1 ">
+                {tech}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
       <div className=" mx-auto">
         <img
           src={experience}
-          className="h-[40vh] w-[210px] mx-auto w-full border-sky-500 border rounded"
+          className="h-[40vh] w-[210px] mx-auto  border-sky-500 border rounded"
           alt=""
         />
         <a
