@@ -16,7 +16,7 @@ const Modal = ({ selectedProject }) => {
             >
               ✕
             </label>
-            <h3 className="font-bold mb-3 text-3xl text-green-500 text-center">
+            <h3 className="font-bold mb-3 text-3xl text-sky-500 text-center">
               {selectedProject?.title}
             </h3>
             <div className=" text-white ">

@@ -1,10 +1,10 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 
-import clipt from '../assets/faysal.png';
-import fb from '../assets/fb.png';
-import github from '../assets/github_PNG53-removebg-preview.png';
-import linkedin from '../assets/linkedin.png';
+import clipt from "../assets/faysal.png";
+import fb from "../assets/fb.png";
+import github from "../assets/github_PNG53-removebg-preview.png";
+import linkedin from "../assets/linkedin.png";
 const Banner = () => {
   return (
     <div className="hero min-h-screen   lg:w-[90%] xl:w-[90%] mx-auto ">
@@ -18,7 +18,7 @@ const Banner = () => {
         </div>
         <div className="w-full text-justify pt-5">
           <p className="text-2xl">Hi , This is</p>
-          <h1 className="text-5xl font-bold text-green-500"> Faysal Ahmed </h1>
+          <h1 className="text-5xl font-bold text-sky-500"> Faysal Ahmed </h1>
           <p className="py-6 lg:text-4xl text-2xl">
             I love to visualize ideas and make them live into websites
           </p>

@@ -1,8 +1,8 @@
-import React from 'react';
-import experience from '../../assets/experience.png';
-import certificate from '../../assets/certificate.png';
-import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import React from "react";
+import experience from "../../assets/experience.png";
+import certificate from "../../assets/certificate.png";
+import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 const Experience = () => {
   return (
     <div className="lg:mt-14 md:mt-14 mx-auto">
@@ -12,13 +12,13 @@ const Experience = () => {
         <span>Achievements</span>
       </h1>
       <div className="flex justify-center items-center">
-        <div className=" border-2 border-green-500  rounded-xl w-20   inline-block"></div>
+        <div className=" border-2 border-sky-500  rounded-xl w-20   inline-block"></div>
       </div>
       <div className="lg:flex md:flex justify-between items-center mt-5">
         <div className=" lg:w-[55%] md:w-[55%] text-start my-8 text-justify ">
           <h1 className="text-2xl font-bold text-white">
-            <span className="text-green-500 block">
-              Successfully Completed Internship{' '}
+            <span className="text-sky-500 block">
+              Successfully Completed Internship{" "}
             </span>
             Full stack Web Development
           </h1>
@@ -26,30 +26,30 @@ const Experience = () => {
             Brain Quest Consultancy and Training - UAE
           </p>
           <p className=" text-sm  italic text-white">
-            11 August, 2022 - 16 November, 2022{' '}
+            11 August, 2022 - 16 November, 2022{" "}
           </p>
           <div className="mt-4 text-white">
             <p>
               <span className="text-blue-500">
-                {' '}
+                {" "}
                 <CheckCircleIcon />
-              </span>{' '}
+              </span>{" "}
               Worked with a team to implement the Frontend functions and pixel
               perfect UI from figma design
-            </p>{' '}
+            </p>{" "}
             <br />
             <p className="">
               <span className="text-blue-500">
                 <CheckCircleIcon />
-              </span>{' '}
+              </span>{" "}
               Worked with another team of MERN to implement the Frontend
               functions and API integrations in ExpressJs, Authentication,
               Authorizations , MongoDB Database with Mongoose .
-            </p>{' '}
-            <br />{' '}
+            </p>{" "}
+            <br />{" "}
             <p className=" ">
               <span className="font-bold text-blue-500 mr-1">
-                {' '}
+                {" "}
                 <CheckCircleIcon />
               </span>
               <span className="font-bold text-lg mr-1">
@@ -65,12 +65,12 @@ const Experience = () => {
         <div className=" mx-auto">
           <img
             src={experience}
-            className="h-[40vh] w-[210px] mx-auto w-full border-green-500 border rounded"
+            className="h-[40vh] w-[210px] mx-auto w-full border-sky-500 border rounded"
             alt=""
           />
           <a
             href="https://drive.google.com/file/d/1VWqoDEfelkAaFyydWKQ2NUjtSW5Syteh/view?usp=sharing"
-            className=" border-gray-600  flex justify-center px-1 text-white rounded  mt-3 hover:translate-x-1 hover:border-green-500 hover:text-green-500 motion-reduce:transition-none motion-reduce:hover:transform-none  duration-500 mx-auto "
+            className=" border-gray-600  flex justify-center px-1 text-white rounded  mt-3 hover:translate-x-1 hover:border-sky-500 hover:text-sky-500 motion-reduce:transition-none motion-reduce:hover:transform-none  duration-500 mx-auto "
           >
             <span className="mr-1 "> View Experience Letter</span>
             <KeyboardDoubleArrowRightIcon size="large" />
@@ -81,35 +81,35 @@ const Experience = () => {
       <div className="lg:flex md:flex justify-between items-center">
         <div className=" lg:w-[55%] md:w-[55%] text-start my-8 text-justify ">
           <h1 className="text-2xl font-bold text-white">
-            <span className="text-green-500">Successfully Completed</span>
+            <span className="text-sky-500">Successfully Completed</span>
             <br />
             Complete Web Development Course with Jhankar Mahbub
           </h1>
           <p className="text-thin text-italic  text-white">Programming Hero</p>
           <p className=" text-sm  italic text-white">
-            31 December, 2021 - 31 May, 2022{' '}
+            31 December, 2021 - 31 May, 2022{" "}
           </p>
           <div className="mt-4 text-white">
             <p>
               <span className="text-blue-500">
-                {' '}
+                {" "}
                 <CheckCircleIcon />
-              </span>{' '}
+              </span>{" "}
               12+ Projects on <span className="font-bold">MERN stack</span> and
               8+ Projects on HTML and CSS and Core Javascript
-            </p>{' '}
+            </p>{" "}
             <br />
             <p className="">
               <span className="text-blue-500">
                 <CheckCircleIcon />
-              </span>{' '}
+              </span>{" "}
               Worked with a team to build a full commercial project on MERN
               stack.
-            </p>{' '}
-            <br />{' '}
+            </p>{" "}
+            <br />{" "}
             <p className=" ">
               <span className="font-bold text-blue-500 mr-1">
-                {' '}
+                {" "}
                 <CheckCircleIcon />
               </span>
               <span className="font-bold text-lg mr-1">
@@ -126,12 +126,12 @@ const Experience = () => {
         <div className=" mx-auto">
           <img
             src={certificate}
-            className="h-[40vh] lg:w-[210px] md:w-[210px] w-full border-green-500  rounded"
+            className="h-[40vh] lg:w-[210px] md:w-[210px] w-full border-sky-500  rounded"
             alt=""
           />
           <a
             href="https://drive.google.com/file/d/1irmgzgOWioNgAFu3AbEjjua-yF2ef3Pj/view?usp=sharing"
-            className=" border-gray-600 flex justify-between text-white rounded px-2 mt-3 hover:translate-x-1 hover:text-green-500 motion-reduce:transition-none motion-reduce:hover:transform-none  duration-500 mx-auto "
+            className=" border-gray-600 flex justify-between text-white rounded px-2 mt-3 hover:translate-x-1 hover:text-sky-500 motion-reduce:transition-none motion-reduce:hover:transform-none  duration-500 mx-auto "
           >
             <span className="mr-1 "> View Certificate</span>
             <KeyboardDoubleArrowRightIcon size="large" />

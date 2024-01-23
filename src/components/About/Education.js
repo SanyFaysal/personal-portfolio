@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Education = () => {
   return (
@@ -7,9 +7,9 @@ const Education = () => {
         Educational Background
       </h1>
       <div className="flex justify-center items-center">
-        <div className=" border-2 border-green-500  rounded-xl w-20   inline-block"></div>
+        <div className=" border-2 border-sky-500  rounded-xl w-20   inline-block"></div>
       </div>
-      <div className="mt-14 mr-auto lg:w-[45%] md:w-[45%] border-l border-green-500 border-l-4 pl-2 rounded">
+      <div className="mt-14 mr-auto lg:w-[45%] md:w-[45%] border-l border-sky-500 border-l-4 pl-2 rounded">
         <h1 className="text-2xl font-semibold text-white">
           <span className="">BSc. in Mathematics - ( 1st year )</span>
           <br />
@@ -19,7 +19,7 @@ const Education = () => {
         </p>
         <p className=" text-sm  italic">August 2022 - Present</p>
       </div>
-      <div className="mt-14 mx-auto lg:w-[45%] md:w-[45%] border-l border-green-500 border-l-4 pl-2  rounded">
+      <div className="mt-14 mx-auto lg:w-[45%] md:w-[45%] border-l border-sky-500 border-l-4 pl-2  rounded">
         <h1 className="text-2xl font-semibold text-white">
           <span className="">HSC - Science</span>
           <br />
@@ -29,7 +29,7 @@ const Education = () => {
         </p>
         <p className=" text-sm  italic">July, 2019 - December, 2021 </p>
       </div>
-      <div className="mt-14 ml-auto lg:w-[45%] md:w-[45%] border-l border-green-500 border-l-4 pl-2  rounded">
+      <div className="mt-14 ml-auto lg:w-[45%] md:w-[45%] border-l border-sky-500 border-l-4 pl-2  rounded">
         <h1 className="text-2xl font-semibold text-white">
           <span className="">SSC - Science</span>
           <br />

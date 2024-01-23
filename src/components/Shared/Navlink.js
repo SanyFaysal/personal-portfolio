@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { NavLink as BaseNavLink } from 'react-router-dom';
+import * as React from "react";
+import { NavLink as BaseNavLink } from "react-router-dom";
 
 const NavLink = React.forwardRef(
   ({ activeClassName, activeStyle, ...props }, ref) => {
@@ -8,9 +8,9 @@ const NavLink = React.forwardRef(
         ref={ref}
         {...props}
         className={({ isActive }) =>
-          [props.className, isActive ? 'bg-green-500' : 'bg-gray-700']
+          [props.className, isActive ? "bg-sky-500" : "bg-gray-700"]
             .filter(Boolean)
-            .join(' ')
+            .join(" ")
         }
       />
     );

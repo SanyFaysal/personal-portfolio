@@ -23,7 +23,7 @@ const Projects = () => {
       <div className="flex justify-center mb-12 mt-8">
         <Link to="/contact">
           <button
-            className="hover:text-green-500 hover:border-white duration-500 border-[1.5px] text-xl hover:text-green-500  hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none  text-white border-green-500 mt-8 px-4  py-1 flex items-center rounded-pill"
+            className="hover:text-sky-500 hover:border-white duration-500 border-[1.5px] text-xl hover:text-sky-500  hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none  text-white border-sky-500 mt-8 px-4  py-1 flex items-center rounded-pill"
             style={{ borderRadius: "30px" }}
           >
             <span className="mr-2"> Contact With Me</span>

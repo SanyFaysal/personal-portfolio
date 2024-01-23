@@ -1,25 +1,25 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from "react";
 
-import AnimatedPage from '../Home/AnimatedPage';
-import Intro from './Intro';
-import Title from '../Shared/Title';
+import AnimatedPage from "../Home/AnimatedPage";
+import Intro from "./Intro";
+import Title from "../Shared/Title";
 
-import '../../style/style.css';
-import Skill from './Skill';
-import Experience from './Experience';
-import Education from './Education';
-import { Link } from 'react-router-dom';
-import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
-import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
+import "../../style/style.css";
+import Skill from "./Skill";
+import Experience from "./Experience";
+import Education from "./Education";
+import { Link } from "react-router-dom";
+import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
+import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 
-import DownloadIcon from '@mui/icons-material/Download';
-import resume from '../../assets/Abu Sani Faysal-frontend-developer-resume.pdf';
-import { IconButton } from '@mui/material';
-import AboutNav from './AboutNav';
+import DownloadIcon from "@mui/icons-material/Download";
+import resume from "../../assets/Abu Sani Faysal-frontend-developer-resume.pdf";
+import { IconButton } from "@mui/material";
+import AboutNav from "./AboutNav";
 
-// https://nahid-hossain-portfolio.netlify.app/static/media/coder3.54de1c2854e13f48aaaa.gif
 const About = () => {
   const [scrolled, setScrolled] = useState(false);
+
   return (
     <div
       className="about_page w-[100%] h-[100%] relative overflow-x-hidden "
@@ -27,6 +27,7 @@ const About = () => {
     >
       <AnimatedPage>
         <AboutNav scrolled={scrolled} setScrolled={setScrolled} />
+
         <div className="lg:px-16 md:px-16 px-5 w-full h-full mx-auto mt-8">
           {/* title  */}
           <p id="introduction" className=""></p>
@@ -37,12 +38,12 @@ const About = () => {
           <a
             href={resume}
             download="Abu Sani Faysal-frontend-developer-resume.pdf"
-            className="sticky mt-2  top-5 absolute inline-block"
+            className="sticky mt-2  top-0 absolute inline-block"
           >
-            <button className="btn  lg:btn-md md:btn-md btn-sm my-auto btn-ghost border-green-500 bg-gray-800 hover:border-green-500 hover:bg-gray-900 ml-1 text-white text-sm">
-              <DownloadIcon />{' '}
+            <button className="btn  lg:btn-md md:btn-md btn-sm my-auto btn-ghost border-sky-500 bg-gray-800 hover:border-sky-500 hover:bg-gray-900 ml-1 text-white text-sm">
+              <DownloadIcon />{" "}
               <span className="ml-1 ">
-                <span className="hidden md:inline lg:inline ">Download</span>{' '}
+                <span className="hidden md:inline lg:inline ">Download</span>{" "}
                 Resume
               </span>
             </button>
@@ -56,8 +57,8 @@ const About = () => {
           <div className="flex justify-center mb-10">
             <Link to="/projects">
               <button
-                className="hover:text-green-500 hover:border-white duration-500 border-[1.5px] text-xl hover:text-green-500  hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none  text-white border-green-500 mt-8 px-4  py-1 flex items-center rounded-pill"
-                style={{ borderRadius: '30px' }}
+                className="hover:text-sky-500 hover:border-white duration-500 border-[1.5px] text-xl hover:text-sky-500  hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none  text-white border-sky-500 mt-8 px-4  py-1 flex items-center rounded-pill"
+                style={{ borderRadius: "30px" }}
               >
                 <span className="mr-2"> See My Projects</span>
                 <KeyboardDoubleArrowRightIcon size="large" />
@@ -71,7 +72,7 @@ const About = () => {
               <IconButton aria-label="delete" size="medium">
                 <KeyboardDoubleArrowUpIcon
                   size="large"
-                  className="text-2xl text-green-500"
+                  className="text-2xl text-sky-500"
                 />
               </IconButton>
             </a>

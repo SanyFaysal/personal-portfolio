@@ -12,7 +12,7 @@ const Project = ({ project, setSelectedProject }) => {
         <div className="lg:order-1 order-2 ">
           <h1 className="text-white text-2xl mt-5">
             Project Name :{" "}
-            <span className="text-green-500 font-bold">{project.title}</span>
+            <span className="text-sky-500 font-bold">{project.title}</span>
             <span className="text-sm font-bold ml-2 text-yellow-500">
               {project.subTitle}
             </span>
@@ -67,7 +67,7 @@ const Project = ({ project, setSelectedProject }) => {
           </div>
           <label
             htmlFor="my-modal-6"
-            className="text-magenta-400 font-semibold inline-block  text-white rounded  my-5 hover:translate-x-1 hover:border-green-500 hover:text-green-500 motion-reduce:transition-none motion-reduce:hover:transform-none  duration-500"
+            className="text-magenta-400 font-semibold inline-block  text-white rounded  my-5 hover:translate-x-1 hover:border-sky-500 hover:text-sky-500 motion-reduce:transition-none motion-reduce:hover:transform-none  duration-500"
             onClick={() => setSelectedProject(project)}
           >
             <span className="mr"> Read Details</span>
