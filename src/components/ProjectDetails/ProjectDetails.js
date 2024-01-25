@@ -100,7 +100,7 @@ export default function ProjectDetails() {
           </div>
         </div>
         <div>
-          <img src={project?.img} />
+          <img src={project?.img} className="w-full h-full rounded" />
         </div>
       </div>
       <div className=" my-8 z-[99] text-white  ">

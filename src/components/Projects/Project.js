@@ -91,7 +91,7 @@ const Project = ({ project }) => {
 
         <a
           href={project?.liveSite}
-          className="h-[35vh] lg:order-2 order-1 w-[65vh]  m-auto "
+          className=" lg:order-2 order-1 w-full  m-auto "
         >
           <img
             src={project?.img}
