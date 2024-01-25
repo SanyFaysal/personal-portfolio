@@ -1,23 +1,41 @@
-import { IconButton } from "@mui/material";
-import React from "react";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import StorageIcon from "@mui/icons-material/Storage";
 import CodeIcon from "@mui/icons-material/Code";
 
-import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
-import { Link } from "react-router-dom";
-const Project = ({ project }) => {
+import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft";
+import Title from "../Shared/Title";
+import { Link, useParams } from "react-router-dom";
+import projectsData from "../../data/projectsData";
+import { useEffect, useState } from "react";
+import { IconButton } from "@mui/material";
+
+export default function ProjectDetails() {
+  const { id } = useParams();
+  const [project, setProject] = useState();
+
+  useEffect(() => {
+    const findProject = projectsData?.find(
+      (project) => project?.id === id && project
+    );
+    setProject(findProject);
+  }, [id]);
+
   return (
-    <>
-      <div className="grid  lg:grid-cols-2 sm:grid-cols-1 mid:grid-cols-2 my-5 py-5 text-white">
-        <div className="lg:order-1 order-2 ">
-          <h1 className="text-white text-2xl mt-5">
-            Project Name :{" "}
-            <span className="text-sky-500 font-bold">{project.title}</span>
-            <span className="text-sm font-bold ml-2 text-yellow-500">
-              ({project.subTitle})
-            </span>
-          </h1>
+    <div
+      className="w-[100%] h-[100%]
+      relative overflow-x-hidden lg:px-16 md:px-16 px-4 "
+    >
+      <Title title="PROJECT DETAILS" upTitle="Project Details" />
+      <div className=" my-8 z-[99] text-white grid lg:grid-cols-2 ">
+        <div>
+          <div className="">
+            <h1 className=" flex gap-3 items-center text-4xl">
+              {project?.title}
+              <span className=" text-2xl mt-1 text-yellow-500">
+                ( {project?.subTitle})
+              </span>
+            </h1>
+          </div>
           <div className="flex ">
             <a href={project?.liveSite} className="mr-3">
               Live site
@@ -80,29 +98,27 @@ const Project = ({ project }) => {
               </div>
             )}
           </div>
-          <Link
-            to={`/project/${project?.id}`}
-            className="text-magenta-400 font-semibold inline-block  text-white rounded  my-5 hover:translate-x-1 hover:border-sky-500 hover:text-sky-500 motion-reduce:transition-none motion-reduce:hover:transform-none  duration-500"
-          >
-            <span className="mr"> Read Details</span>
-            <KeyboardDoubleArrowRightIcon size="large" />
-          </Link>
         </div>
-
-        <a
-          href={project?.liveSite}
-          className="h-[35vh] lg:order-2 order-1 w-[65vh]  m-auto "
-        >
-          <img
-            src={project?.img}
-            alt=""
-            className=" rounded-lg shadow border border-white shadow-base-500"
-          />
-        </a>
+        <div>
+          <img src={project?.img} />
+        </div>
       </div>
-      <div className="py-[0.5px] bg-[#24365a]" />
-    </>
+      <div className=" my-8 z-[99] text-white  ">
+        <h3 className="text-xl font-semibold my-3"></h3>
+        <div>{project?.keyFeatures} </div>
+        <div className="mt-5">{project?.details} </div>
+      </div>
+      <div className="flex justify-center mb-12 mt-8">
+        <Link to="/projects">
+          <button
+            className=" hover:border-white duration-500 border-[1.5px] text-xl hover:text-sky-500  hover:translate-x-[-8px] motion-reduce:transition-none motion-reduce:hover:transform-none  text-white border-sky-500 mt-8 px-4  py-1 flex items-center rounded-pill"
+            style={{ borderRadius: "30px" }}
+          >
+            <KeyboardDoubleArrowLeftIcon size="large" />
+            <span className="mr-2">Go Back</span>
+          </button>
+        </Link>
+      </div>
+    </div>
   );
-};
-
-export default Project;
+}

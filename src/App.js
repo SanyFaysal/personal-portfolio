@@ -15,6 +15,7 @@ import EmergencyContact from "./components/Shared/EmergencyContact";
 import Navbar from "./components/Shared/Navbar";
 import ResEmergencyContact from "./components/Shared/ResEmergencyContact";
 import { useState } from "react";
+import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 
 function App() {
   const location = useLocation();
@@ -40,6 +41,7 @@ function App() {
                 <Route path="/" element={<Home light={light} />}></Route>
                 <Route path="/about" element={<About />}></Route>
                 <Route path="/projects" element={<Projects />}></Route>
+                <Route path="/project/:id" element={<ProjectDetails />}></Route>
                 <Route path="/contact" element={<Contact />}></Route>
                 <Route path="/blog" element={<Blog />}></Route>
               </Routes>
