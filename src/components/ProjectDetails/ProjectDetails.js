@@ -93,7 +93,7 @@ export default function ProjectDetails() {
               <div className="flex mt-3">
                 <h2 className="mr-2 font-semibold">Others </h2>
                 <div className="">
-                  <button className="badge badge-sm m-1 ">Stripe Js</button>
+                  <button className="badge badge-sm m-1 ">Stripe</button>
                 </div>
               </div>
             )}
