@@ -1,4 +1,3 @@
-import pp from "../assets/bicycleghor.png";
 import job_portal from "../assets/job_portal.png";
 import home_sync_solution from "../assets/home_sync.png";
 import book_catalog from "../assets/book_catalog.png";
@@ -10,9 +9,9 @@ const projectsData = [
     title: "HomeSync Solution",
     subTitle: "Full Stack",
     img: home_sync_solution,
-    liveSite: "https://job-portal-eosin.vercel.app/",
-    clientSiteCode: "https://github.com/SanyFaysal/job-portal/",
-    serverSiteCode: "https://github.com/SanyFaysal/job-portal-server",
+    liveSite: "https://house-cleaning-frontend-kappa.vercel.app/",
+    clientSiteCode: "https://github.com/SanyFaysal/house_cleaning_frontend",
+    serverSiteCode: "https://github.com/SanyFaysal/house_cleaning_backend",
     frontendTechnology: [
       "TypeScript",
       "NextJs",
@@ -280,9 +279,9 @@ const projectsData = [
     title: "Book Catalog Website",
     subTitle: "Full Stack",
     img: book_catalog,
-    liveSite: "https://job-portal-eosin.vercel.app/",
-    clientSiteCode: "https://github.com/SanyFaysal/job-portal/",
-    serverSiteCode: "https://github.com/SanyFaysal/job-portal-server",
+    liveSite: "https://book-catalog-frontend-pi.vercel.app/",
+    clientSiteCode: "https://github.com/SanyFaysal/book-catalog-frontend",
+    serverSiteCode: "https://github.com/SanyFaysal/book-catelog-server",
     frontendTechnology: [
       "Vite Js",
       "Redux-Toolkit",
@@ -379,9 +378,9 @@ const projectsData = [
     title: "Pc Builder",
     subTitle: "Frontend",
     img: pc_builder,
-    liveSite: "https://job-portal-eosin.vercel.app/",
-    clientSiteCode: "https://github.com/SanyFaysal/job-portal/",
-    serverSiteCode: "https://github.com/SanyFaysal/job-portal-server",
+    liveSite: "https://pc-builder-frontend-omega.vercel.app/",
+    clientSiteCode: "https://github.com/SanyFaysal/pc-builder-frontend",
+    serverSiteCode: "https://github.com/SanyFaysal/pc-builder-server",
     frontendTechnology: [
       "Next Js",
       "Next Auth",

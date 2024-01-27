@@ -38,7 +38,7 @@ const About = () => {
           <a
             href={resume}
             download="Abu Sani Faysal-frontend-developer-resume.pdf"
-            className="sticky mt-2  top-0 absolute inline-block"
+            className="sticky mt-2  top-0  inline-block"
           >
             <button className="btn  lg:btn-md md:btn-md btn-sm my-auto btn-ghost border-sky-500 bg-gray-800 hover:border-sky-500 hover:bg-gray-900 ml-1 text-white text-sm">
               <DownloadIcon />{" "}
@@ -57,7 +57,7 @@ const About = () => {
           <div className="flex justify-center mb-10">
             <Link to="/projects">
               <button
-                className="hover:text-sky-500 hover:border-white duration-500 border-[1.5px] text-xl hover:text-sky-500  hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none  text-white border-sky-500 mt-8 px-4  py-1 flex items-center rounded-pill"
+                className="hover:text-sky-500 hover:border-white duration-500 border-[1.5px] text-xl hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none  text-white border-sky-500 mt-8 px-4  py-1 flex items-center rounded-pill"
                 style={{ borderRadius: "30px" }}
               >
                 <span className="mr-2"> See My Projects</span>

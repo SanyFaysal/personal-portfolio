@@ -1,3 +1,6 @@
+import brain_quest from "../assets/experience.png";
+import certificate from "../assets/certificate.png";
+
 export const experienceData = [
   {
     title: "Played Role of ",
@@ -17,7 +20,7 @@ export const experienceData = [
       "MongoDB",
       "Mongoose",
     ],
-    imageSrc: "", // Assuming 'experience' is the variable holding the image source
+    imageSrc: "",
     experienceLetterLink:
       "https://drive.google.com/file/d/1VWqoDEfelkAaFyydWKQ2NUjtSW5Syteh/view?usp=sharing",
   },
@@ -32,7 +35,7 @@ export const experienceData = [
     ],
 
     technologies: ["Vue Js", "Vuex", "Vuexy Component", "Bootstrap"],
-    imageSrc: "", // Assuming 'experience' is the variable holding the image source
+    imageSrc: brain_quest,
     experienceLetterLink:
       "https://drive.google.com/file/d/1VWqoDEfelkAaFyydWKQ2NUjtSW5Syteh/view?usp=sharing",
   },
@@ -55,7 +58,7 @@ export const experienceData = [
       "Bootstrap",
     ],
 
-    imageSrc: "", // Assuming 'experience' is the variable holding the image source
+    imageSrc: certificate, // Assuming 'experience' is the variable holding the image source
     experienceLetterLink:
       "https://drive.google.com/file/d/1VWqoDEfelkAaFyydWKQ2NUjtSW5Syteh/view?usp=sharing",
   },

@@ -16,7 +16,8 @@
   /* background: content-box
     linear-gradient(to top, rgb(75, 60, 173), rgb(62, 50, 143)); */
   background: content-box
-    linear-gradient(to top, rgb(65, 82, 91), rgb(95, 173, 189));
+    radial-gradient(at right center, rgb(40, 163, 216), rgb(31, 30, 62));
+
   /* position: relative */
 }
 .monitor {

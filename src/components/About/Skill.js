@@ -19,7 +19,7 @@ const Skill = () => {
       <div className="">
         <div className=" mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div className=" lg:mt-10 md:mt-10 mb-[-1px]">
-            <span className="inline-block mt-[-16px]   text-white px-3 py-1  border-[1px] rounded-t-lg  border-sky-900 border-dotted border-b-0 text-xl text-gray-300 ">
+            <span className="inline-block mt-[-16px]    px-3 py-1  border-[1px] rounded-t-lg  border-sky-900 border-dotted border-b-0 text-xl text-gray-300 ">
               Frontend Development
             </span>
           </div>
