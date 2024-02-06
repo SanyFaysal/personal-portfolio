@@ -13,7 +13,7 @@ import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArro
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 
 import DownloadIcon from "@mui/icons-material/Download";
-import resume from "../../assets/Abu Sani Faysal-frontend-developer-resume.pdf";
+import resume from "../../assets/Abu Sani Faysal-fullstack-developer-resume.pdf";
 import { IconButton } from "@mui/material";
 import AboutNav from "./AboutNav";
 
@@ -37,7 +37,7 @@ const About = () => {
           <Intro />
           <a
             href={resume}
-            download="Abu Sani Faysal-frontend-developer-resume.pdf"
+            download="Abu Sani Faysal-fullstack-developer-resume.pdf"
             className="sticky mt-2  top-0  inline-block"
           >
             <button className="btn  lg:btn-md md:btn-md btn-sm my-auto btn-ghost border-sky-500 bg-gray-800 hover:border-sky-500 hover:bg-gray-900 ml-1 text-white text-sm">

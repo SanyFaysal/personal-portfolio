@@ -85,6 +85,25 @@ const Skill = () => {
               <p className="my-4 font-bold  text-purple-500">PostgreSQL</p>
             </div>
           </div>
+          <div className=" lg:mt-10 md:mt-10 mt-7 mb-[-1px]">
+            <span className="inline-block mt-[-16px] text-white  px-3 py-1  border-[1px] rounded-t-lg  border-sky-900 border-dotted border-b-0 text-xl text-gray-300 ">
+              Others
+            </span>
+          </div>
+          <div className="w-full  grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-10 px-4  border-[1px] rounded-lg  border-sky-900 border-dotted">
+            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
+              <p className="my-4 font-bold text-white ">Github Collaboration</p>
+            </div>
+            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
+              <p className="my-4 font-bold text-yellow-500">ChartJs</p>
+            </div>
+            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
+              <p className="my-4 font-bold  text-green-600">PostMan</p>
+            </div>
+            <div className="shadow-md rounded-lg shadow-[#040c16] hover:scale-110 duration-500">
+              <p className="my-4 font-bold  text-orange-500">Figma</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

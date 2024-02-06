@@ -2,6 +2,10 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 
 const Intro = () => {
+  const handleDownload = () => {
+    const pdfUrl = "Abu Sani Faysal-fullstack-developer-resume.pdf";
+    window.open(pdfUrl, "_blank");
+  };
   return (
     <div className="h-full lg:flex justify-between items-center ">
       <div className="lg:w-[60%] md:w-[60%] text-justify my-auto">
@@ -26,20 +30,18 @@ const Intro = () => {
             Full Stack MERN developer.
           </span>
           My core skills are based on JavaScript and I love to do most of the
-          programme using JavaScript. I love to make the web more open to the
-          world.
+          programme using JavaScript and TypeScript. I love to make the web more
+          open to the world.
         </p>
 
         {/* <div className="w-full h-full">
           <div className="flex justify-start items-center mt-3 sticky top-5 ">
-            <a
-              href={resume}
-              download="Abu Sani Faysal-frontend-developer-resume.pdf"
+            <button
+              onClick={handleDownload}
+              className="btn btn-md btn-ghost border-sky-500 bg-none hover:border-sky-500  ml-1 text-white text-sm"
             >
-              <button className="btn btn-md btn-ghost border-sky-500 bg-none hover:border-sky-500  ml-1 text-white text-sm">
-                <DownloadIcon /> <span className="ml-1 ">Download Resume</span>
-              </button>
-            </a>
+              <span className="ml-1 ">Download Resume</span>
+            </button>
           </div>
         </div> */}
       </div>
